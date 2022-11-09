@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="formulario"><!-- formulario -->
+      <input type="text" placeholder="Nombre del producto" name="nameProducto">
+
+      <input type="number" name="precioProducto" placeholder="Precio">
+
+      <select name="categoria">
+        <option value="tecno">
+          tecnologia
+        </option>
+        <option value="casa">
+          Hogar
+        </option>
+        <option value="higiene">
+          Limpieza
+        </option>
+      </select>
+
+      <input type="submit" value="enviar">
+      <input type="reset">
+    </form>
+
+    <div id="listaDeProductos"></div><!-- contendor -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
